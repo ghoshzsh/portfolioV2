@@ -29,108 +29,109 @@ IndexPage.propTypes = {
 
 export default IndexPage;
 
-export const pageQuery = graphql`
-  {
-    hero: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/hero/" } }) {
-      edges {
-        node {
-          frontmatter {
-            title
-            name
-            subtitle
-            buttonText
-          }
-          html
+export const pageQuery = graphql`{
+  hero: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/hero/"}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          name
+          subtitle
+          buttonText
         }
-      }
-    }
-    about: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/about/" } }) {
-      edges {
-        node {
-          frontmatter {
-            title
-            avatar {
-              childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-            skills
-          }
-          html
-        }
-      }
-    }
-    jobs: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/jobs/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            company
-            location
-            range
-            url
-          }
-          html
-        }
-      }
-    }
-    featured: allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/featured/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            cover {
-              childImageSharp {
-                fluid(maxWidth: 700, quality: 90, traceSVG: { color: "#64ffda" }) {
-                  ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                }
-              }
-            }
-            tech
-            github
-            external
-          }
-          html
-        }
-      }
-    }
-    projects: allMarkdownRemark(
-      filter: {
-        fileAbsolutePath: { regex: "/projects/" }
-        frontmatter: { showInProjects: { ne: false } }
-      }
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          frontmatter {
-            title
-            tech
-            github
-            external
-          }
-          html
-        }
-      }
-    }
-    contact: allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/contact/" } }) {
-      edges {
-        node {
-          frontmatter {
-            title
-            buttonText
-          }
-          html
-        }
+        html
       }
     }
   }
-`;
+  about: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/about/"}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          avatar {
+            childImageSharp {
+              gatsbyImageData(
+                width: 700
+                quality: 90
+                placeholder: BLURRED
+                layout: CONSTRAINED
+              )
+            }
+          }
+          skills
+        }
+        html
+      }
+    }
+  }
+  jobs: allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "/jobs/"}}
+    sort: {fields: [frontmatter___date], order: DESC}
+  ) {
+    edges {
+      node {
+        frontmatter {
+          title
+          company
+          location
+          range
+          url
+        }
+        html
+      }
+    }
+  }
+  featured: allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "/featured/"}}
+    sort: {fields: [frontmatter___date], order: DESC}
+  ) {
+    edges {
+      node {
+        frontmatter {
+          title
+          cover {
+            childImageSharp {
+              gatsbyImageData(
+                width: 700
+                quality: 90
+                placeholder: BLURRED
+                layout: CONSTRAINED
+              )
+            }
+          }
+          tech
+          github
+          external
+        }
+        html
+      }
+    }
+  }
+  projects: allMarkdownRemark(
+    filter: {fileAbsolutePath: {regex: "/projects/"}, frontmatter: {showInProjects: {ne: false}}}
+    sort: {fields: [frontmatter___date], order: DESC}
+  ) {
+    edges {
+      node {
+        frontmatter {
+          title
+          tech
+          github
+          external
+        }
+        html
+      }
+    }
+  }
+  contact: allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/contact/"}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          buttonText
+        }
+        html
+      }
+    }
+  }
+}`;
