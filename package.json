@@ -19,12 +19,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "gpdeploy": "gatsby build && gh-pages -d public -b main",
-    "deploy": "gatsby clean && gatsby build && gatsby serve"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
+    "deploy": "gatsby clean && gatsby build && gatsby serve",
+    "prepare": "husky"
   },
   "lint-staged": {
     "*.{js,css,json,md}": [
@@ -67,17 +63,17 @@
     "styled-components": "^6"
   },
   "devDependencies": {
+    "@babel/eslint-parser": "^7.28.0",
     "@upstatement/eslint-config": "0.4.3",
-    "@upstatement/prettier-config": "^0.3.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.10.1",
+    "@upstatement/prettier-config": "^1.1.0",
+    "eslint": "^9",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.19.0",
     "gatsby-remark-code-titles": "^1.1.0",
-    "gh-pages": "^3.2.3",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.1.2",
-    "prettier": "^2.0.4"
+    "gh-pages": "^6.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.5",
+    "prettier": "^3"
   }
 }

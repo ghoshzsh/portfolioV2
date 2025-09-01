@@ -1,3 +1,15 @@
 {
-  "extends": "@upstatement/eslint-config/react"
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "@upstatement/eslint-config",
+    "prettier"
+  ]
 }
