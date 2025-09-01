@@ -36,7 +36,24 @@ const StyledPostContent = styled.div`
 `;
 
 const PostTemplate = ({ data, location }) => {
-  const { frontmatter, html } = data.markdownRemark;
+  const post = data?.markdownRemark;
+
+  if (!post) {
+    return (
+      <Layout location={location}>
+        <Helmet>
+          <title>Not Found | Aniruddha Ghosh</title>
+        </Helmet>
+        <StyledPostContainer>
+          <h1>Post not found</h1>
+          <p>Sorry, this post doesn’t exist or is missing frontmatter.</p>
+          <Link to="/pensieve">Back to all memories</Link>
+        </StyledPostContainer>
+      </Layout>
+    );
+  }
+
+  const { frontmatter, html } = post;
   const { title, date, tags } = frontmatter;
 
   return (

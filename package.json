@@ -12,14 +12,14 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && npm run develop",
-    "serve": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby serve",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "gpdeploy": "export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build && gh-pages -d public -b main",
-    "deploy": "gatsby clean && export SET NODE_OPTIONS=--openssl-legacy-provider && gatsby build && gatsby serve"
+    "gpdeploy": "gatsby build && gh-pages -d public -b main",
+    "deploy": "gatsby clean && gatsby build && gatsby serve"
   },
   "husky": {
     "hooks": {
