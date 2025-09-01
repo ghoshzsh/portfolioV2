@@ -1,7 +1,7 @@
 ---
 date: '2023-08-02'
 title: 'Commercial Billing System'
-github: 'https://github.com/aghosh0605/commercial-billing-system.git'
+github: 'https://github.com/ghoshzsh/commercial-billing-system.git'
 external: ''
 tech:
   - Github Actions

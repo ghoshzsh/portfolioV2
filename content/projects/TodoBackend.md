@@ -1,7 +1,7 @@
 ---
 date: '2023-07-02'
 title: 'Todo App Backend'
-github: 'https://github.com/aghosh0605/todo-backend'
+github: 'https://github.com/ghoshzsh/todo-backend'
 external: ''
 tech:
   - Django

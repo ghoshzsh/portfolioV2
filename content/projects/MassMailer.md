@@ -1,7 +1,7 @@
 ---
 date: '2022-10-15'
 title: 'Mass Mailer for Events'
-github: 'https://github.com/aghosh0605/event-registration-mailer'
+github: 'https://github.com/ghoshzsh/event-registration-mailer'
 external: 'https://api.htbsrmist.tech/healthcheck'
 tech:
   - AWS SES

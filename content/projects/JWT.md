@@ -1,7 +1,7 @@
 ---
 date: '2021-06-02'
 title: 'JWT Authentication'
-github: 'https://github.com/aghosh0605/JWT-Authentication'
+github: 'https://github.com/ghoshzsh/JWT-Authentication'
 external: ''
 tech:
   - NodeJS

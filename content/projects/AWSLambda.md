@@ -1,7 +1,7 @@
 ---
 date: '2023-03-21'
 title: 'AWS Lambda APIs'
-github: 'https://github.com/aghosh0605/aws-lambda-stack'
+github: 'https://github.com/ghoshzsh/aws-lambda-stack'
 external: ''
 tech:
   - Lambda

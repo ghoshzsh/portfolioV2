@@ -1,7 +1,7 @@
 ---
 date: '2021-04-01'
 title: 'Chat Application with Python'
-github: 'https://github.com/aghosh0605/SOCIAL-CHAT_with_python'
+github: 'https://github.com/ghoshzsh/SOCIAL-CHAT_with_python'
 # external: 'https://yashitanamdeo.github.io/Voter-Registration-WebApp/'
 tech:
   - Python

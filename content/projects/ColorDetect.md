@@ -1,7 +1,7 @@
 ---
 date: '2021-07-02'
 title: 'ROS Live Colour Detector'
-github: 'https://github.com/aghosh0605/ROS_OpenCV_Python_Colour-Detection'
+github: 'https://github.com/ghoshzsh/ROS_OpenCV_Python_Colour-Detection'
 # external: 'https://github.com/yashitanamdeo/Image-Processing-Python/blob/main/Image_Processing.ipynb'
 tech:
   - Python

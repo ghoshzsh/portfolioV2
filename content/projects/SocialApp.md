@@ -1,7 +1,7 @@
 ---
 date: '2022-11-07'
 title: 'Complete Social App Backend'
-github: 'https://github.com/aghosh0605/social-app-backend'
+github: 'https://github.com/ghoshzsh/social-app-backend'
 # external: 'https://yashitanamdeo.github.io/CSS-Animation-WebApp/'
 tech:
   - NodeJS

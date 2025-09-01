@@ -5,7 +5,7 @@
   "author": "Aniruddha Ghosh",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aghosh0605/portfolioV2"
+    "url": "https://github.com/ghoshzsh/portfolioV2"
   },
   "keywords": [
     "gatsby"
@@ -55,7 +55,7 @@
     "prop-types": "^15.7.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-helmet": "^5.2.1",
+    "react-helmet-async": "^2.0.5",
     "react-transition-group": "^4.3.0",
     "scrollreveal": "^4.0.5",
     "sharp": "^0.34.3",

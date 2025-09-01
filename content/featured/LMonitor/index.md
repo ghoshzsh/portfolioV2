@@ -2,7 +2,7 @@
 date: '1'
 title: 'Liquid Monitor'
 cover: 'water.png'
-github: 'https://github.com/aghosh0605/IoT-LiquidMonitor'
+github: 'https://github.com/ghoshzsh/IoT-LiquidMonitor'
 # external: 'https://disney-clone-83e44.web.app/'
 tech:
   - ReactJS

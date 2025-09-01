@@ -3,7 +3,7 @@ module.exports = {
   siteDescription:
     'Aniruddha Ghosh is a cybersecurity enthusiast, based in India, who loves learning new things and implementing them in real life.',
   siteKeywords:
-    'Aniruddha Ghosh, Aniruddha, Ghosh, aghosh0605, security engineer, web developer, javascript, python, typescript, srmist, chennai, cybersecurity , cloud, iot, linux, networking',
+    'Aniruddha Ghosh, Aniruddha, Ghosh, ghoshzsh, security engineer, web developer, javascript, python, typescript, srmist, chennai, cybersecurity , cloud, iot, linux, networking',
   siteUrl: 'https://iamghosh.in/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'G-STK2LEVWC2',
@@ -11,28 +11,28 @@ module.exports = {
   name: 'Aniruddha Ghosh',
   location: 'Chennai, India',
   email: 'aghosh0605@gmail.com',
-  github: 'https://github.com/aghosh0605',
-  twitterHandle: '@aghosh0605',
+  github: 'https://github.com/ghoshzsh',
+  twitterHandle: '@ghoshzsh',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/aghosh0605',
+      url: 'https://github.com/ghoshzsh',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/aghosh0605/',
+      url: 'https://www.linkedin.com/in/ghoshzsh/',
     },
     // {
     //   name: 'Codepen',
     //   url: 'https://codepen.io/yashitanamdeo',
     // },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/aghosh0605',
-    },
+    // {
+    //   name: 'Instagram',
+    //   url: 'https://www.instagram.com/ghosh.zsh',
+    // },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/aghosh0605',
+      url: 'https://twitter.com/ghoshzsh',
     },
   ],
 

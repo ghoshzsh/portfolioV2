@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { graphql } from 'gatsby';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
 import { srConfig } from '@config';

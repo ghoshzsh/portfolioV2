@@ -1,7 +1,7 @@
 ---
 date: '2021-07-11'
 title: 'GoogleMapAPI-React'
-github: 'https://github.com/aghosh0605/GoogleMapAPI-React'
+github: 'https://github.com/ghoshzsh/GoogleMapAPI-React'
 # external: 'https://yashitanamdeo.github.io/365-entertainment-Movie-Webapp/'
 tech:
   - ReactJS

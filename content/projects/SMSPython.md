@@ -1,7 +1,7 @@
 ---
 date: '2021-05-01'
 title: 'SMS from Simcard'
-github: 'https://github.com/aghosh0605/SMS_from_simcard_with_python'
+github: 'https://github.com/ghoshzsh/SMS_from_simcard_with_python'
 # external: 'https://yashitanamdeo.github.io/Medium-Blogging/'
 tech:
   - Python

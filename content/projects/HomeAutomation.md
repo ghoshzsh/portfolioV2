@@ -1,7 +1,7 @@
 ---
 date: '2023-05-05'
 title: 'Home automation'
-github: 'https://github.com/aghosh0605/home-automation'
+github: 'https://github.com/ghoshzsh/home-automation'
 external: ''
 tech:
   - home-assistant

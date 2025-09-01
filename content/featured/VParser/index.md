@@ -2,7 +2,7 @@
 date: '3'
 title: 'Video Subtitle Parser'
 cover: 'parser.png'
-github: 'https://github.com/aghosh0605/video-subtitle-parser'
+github: 'https://github.com/ghoshzsh/video-subtitle-parser'
 # external: 'https://covid19-tracker-84ef4.web.app/'
 tech:
   - Djuango
