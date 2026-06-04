@@ -1,15 +1,15 @@
 module.exports = {
   siteTitle: 'Aniruddha Ghosh',
   siteDescription:
-    'Aniruddha Ghosh is a cybersecurity enthusiast, based in India, who loves learning new things and implementing them in real life.',
+    'Aniruddha Ghosh is a Cybersecurity Engineer and AI practitioner specialising in SIEM engineering, ML-driven threat analytics (UEBA), detection engineering, and AI agent development.',
   siteKeywords:
-    'Aniruddha Ghosh, Aniruddha, Ghosh, ghoshzsh, security engineer, web developer, javascript, python, typescript, srmist, chennai, cybersecurity , cloud, iot, linux, networking',
+    'Aniruddha Ghosh, Aniruddha, Ghosh, ghoshzsh, cybersecurity engineer, AI agents, UEBA, SIEM, detection engineering, threat hunting, LangGraph, LangChain, MCP, splunk, python, cloud security, devSecOps, bengaluru',
   siteUrl: 'https://iamghosh.in/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'G-STK2LEVWC2',
   // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
   name: 'Aniruddha Ghosh',
-  location: 'Chennai, India',
+  location: 'Bengaluru, India',
   email: 'aghosh0605@gmail.com',
   github: 'https://github.com/ghoshzsh',
   twitterHandle: '@ghoshzsh',
@@ -48,6 +48,10 @@ module.exports = {
     {
       name: 'Projects',
       url: '/#projects',
+    },
+    {
+      name: 'Publications',
+      url: '/#publications',
     },
     {
       name: 'Contact',

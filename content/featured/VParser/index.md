@@ -5,7 +5,7 @@ cover: 'parser.png'
 github: 'https://github.com/ghoshzsh/video-subtitle-parser'
 # external: 'https://covid19-tracker-84ef4.web.app/'
 tech:
-  - Djuango
+  - Django
   - Redis
   - DynamoDB
   - Celery

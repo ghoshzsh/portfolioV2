@@ -2,22 +2,24 @@
 title: 'About Me'
 avatar: 'me.jpg'
 skills:
-  - Cybersecurity
+  - SIEM Engineering
+  - AI/ML Agents
+  - Detection Engineering
+  - Cloud Security
   - DevSecOps
-  - Backend Development
-  - Automation
-  - Cloud
-  - IoT
+  - Threat Hunting
 ---
 
-Growth hacker by day, adrenaline junkie by night 🚀🌙
+I'm Aniruddha Ghosh — a Cybersecurity Engineer and AI practitioner based in Bengaluru, originally from Kolkata.
 
-Voilà! I'm Aniruddha Ghosh, from Kolkata, also known as city of Joy.
+I work at the intersection of **Cybersecurity and Artificial Intelligence**, building ML-driven behavioural analytics, autonomous investigation agents, and detection engineering pipelines that help security teams detect threats faster and more accurately.
 
-I graduated with a Bachelor's degree in Computer Science and Engineering from [SRM Institute of Science and Technology](https://www.srmist.edu.in/), Chennai in 2024, achieving a GPA of [9.28]() out of 10.
+At EY, I design and deploy unsupervised ML models for UEBA use cases — identifying insider threats and lateral movement across enterprise environments — and build LangGraph-powered AI agents that autonomously investigate Splunk alerts end-to-end using an MCP tool stack.
 
-As the founder and organizer of the official [Hack The Box Meetup - Chennai](https://www.meetup.com/chennai-in/), I have played a pivotal role in orchestrating successful events with an impressive attendance of over [500]() participants. Additionally, I have demonstrated effective leadership skills by managing and leading a dynamic team of [120]() highly skilled members, each specializing in various domains.
+I graduated with a B.Tech in Computer Science (Specialisation: Cybersecurity) from [SRM Institute of Science and Technology](https://www.srmist.edu.in/) in 2024, achieving a CGPA of [9.28]().
 
-Certifications: [Salesforce Certified Associate](https://www.salesforce.com/trailblazer/aghosh0605), [ISC2 CC](https://www.credly.com/badges/729ffe59-6d01-4ac8-bcf1-e92daa29f832/public_url), [RHCE](https://rhtapps.redhat.com/verify?certId=220-145-494), [CEHv11](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=nTBj9hoT/MAHqeqS6uD+qEpZqxfjSasetsBqddymsnw=), [RHCSA](https://rhtapps.redhat.com/verify?certId=220-145-494), [CNSS](https://www.credential.net/244041af-a366-4807-8f1b-4b05bc6d87a5), [Google IT Support Professional Certificate](https://www.coursera.org/account/accomplishments/professional-cert/LYWJ9UBSP7NE), [CNSS](https://www.credential.net/244041af-a366-4807-8f1b-4b05bc6d87a5#gs.bqw7ak)
+As the founder of the official [Hack The Box Meetup — Chennai](https://www.meetup.com/chennai-in/), I hosted 20+ monthly CTFs and technical workshops with [500+]() attendees, leading a core team of [25+]() organisers across red team challenges and blue team defence drills.
 
-Here are some of my favorite activities!
+Certifications: [CRTP](https://www.alteredsecurity.com/adlab), [ISC2 CC](https://www.credly.com/badges/729ffe59-6d01-4ac8-bcf1-e92daa29f832/public_url), [CEHv11](https://aspen.eccouncil.org/VerifyBadge?type=certification&a=nTBj9hoT/MAHqeqS6uD+qEpZqxfjSasetsBqddymsnw=), [RHCE](https://rhtapps.redhat.com/verify?certId=220-145-494), [RHCSA](https://rhtapps.redhat.com/verify?certId=220-145-494), [Salesforce Certified Associate](https://www.salesforce.com/trailblazer/aghosh0605)
+
+Here are a few technologies I work with most:

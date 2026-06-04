@@ -1,10 +1,10 @@
 ---
-title: 'Voilà!, my name is'
+title: 'Hi, my name is'
 name: 'Aniruddha Ghosh'
-subtitle: 'Time is precious, and I love to save time for human beings!'
+subtitle: 'I engineer AI systems that think like attackers.'
 buttonText: 'Get In Touch'
 ---
 
-I'm a Senior Analyst at EY, focusing on DevSecOps!
+I'm a Cybersecurity Engineer and AI practitioner at EY, building ML-driven threat detection and autonomous AI agents for security operations.
 
-I enjoy learning new skills and implementing them in real life!
+I specialise at the intersection of **Cybersecurity** and **AI** — designing UEBA systems, LangGraph agents, and detection engineering pipelines that make security teams faster and smarter.
